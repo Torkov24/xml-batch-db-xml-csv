@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+    <book>
+        <id>2</id>
+        <title>title2</title>
+        <authors>
+            <author>
+                <id>1</id>
+                <firstname>name1</firstname>
+                <lastname>lname1</lastname>
+            </author>
+            <author>
+                <id>2</id>
+                <firstname>name2</firstname>
+                <lastname>lname2</lastname>
+            </author>
+        </authors>
+    </book>
+    <book>
+        <id>1</id>
+        <title>title1</title>
+        <authors>
+            <author>
+                <id>1</id>
+                <firstname>name1</firstname>
+                <lastname>lname1</lastname>
+            </author>
+        </authors>
+    </book>
+</Books>

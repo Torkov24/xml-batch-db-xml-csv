@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/batch-processing-2
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: create-drop
+    show-sql: true
+  batch:
+    job:
+      enabled: false #if set to true it will run the job on startup, and not wait for an api call
+    jdbc:
+      initialize-schema: always
+
+file:
+  input: input/movies-sample.csv
+  output: output/movies.xml
+
+
